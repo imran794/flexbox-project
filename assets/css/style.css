@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul{
+  list-style: none;
+}
+
+img{
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+a{
+  text-decoration: none;
+  color: #333;
+  transition: .3s;
+}
+
+body{
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title{
+  text-align: center;
+  margin-bottom: 45px;
+}
+.section-title h3 {
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.btn{
+  padding: 10px 30px;
+  display: inline-block;
+  background-color: tomato;
+  margin-top: 15px;
+  content: close-quote;
+  color: #fff;
+  text-transform: capitalize;
+  border-radius: 10px;
+}
+
+
+/* common end */
+
+
+
+/* header area start */
+.header-area {
+  padding: 30px;
+}
+
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  text-transform: capitalize;
+  font-size: 26px;
+  font-weight: 7000;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu ul li a{
+  text-transform: capitalize;
+  margin-left: 20px;
+}
+
+.menu ul li a:hover{
+  color: tomato;
+}
+
+/* header area end */
+
+
+/* banner area start */
+.banner-img img {
+  border: 1px solid #ddd;
+  padding: 3px;
+  width: 100%;
+  height: 500px;
+}
+
+/* banner area end */
+
+
+/* about area start */
+
+
+.about-area{
+  padding: 80px 0;
+}
+
+.about {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.single-about {
+  flex-basis: 32%;
+  border: 1px solid #ddd;
+  padding: 30px 20px;
+  transition: .3s;
+}
+
+.single-about:hover{
+  border-color: tomato;
+}
+
+.single-about i {
+  font-size: 24px;
+  border: 1px solid #ddd;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 50%;
+  color: #333;
+  transition: .3s;
+}
+
+.single-about:hover i{
+  background-color: tomato;
+  color: #fff;
+}
+
+.single-about h4 {
+  font-size: 25px;
+  text-transform: capitalize;
+  padding: 10px 0;
+}
+
+
+
+/* about area end */
+
+
+/* services area start */
+
+.services-area{
+  background-color: #f2f2f2;
+  padding: 80px 0;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.single-services {
+  flex-basis: 32%;
+  background-color: #fff;
+  padding: 20px;
+}
+
+
+.single-services h4 {
+  background-color: teal;
+  padding: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.single-services p{
+  padding-top: 15px;
+}
+
+.single-services a:hover{
+  background-color: teal;
+}
+
+/* services area end */
+
+/* gallery area start */
+
+section.gallery-area {
+  padding: 80px 0 50px 0;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.single-gallery {
+  flex-basis: 23%;
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  padding: 3px;
+}
+
+/* gallery area end */
+
+
+.contact-area{
+  background-color: #f2f2f2;
+  padding: 80px 0;
+}
+
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact-from {
+  flex-basis: 60%;
+}
+
+.contact-address {
+  flex-basis: 35%;
+}
+
+.contact-from input, .contact-from textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  border-color: #ddd;
+}
+
+
+input[type="submit"] {
+  background-color: tomato;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 900;
+  cursor: pointer;
+  transition: .3s;
+}
+
+input[type="submit"]:hover{
+  background-color: teal;
+}
+
+
+.single-contact {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.single-contact i {
+  width: 40px;
+  height: 40px;
+  background-color: tomato;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  margin-right: 15px;
+}
+
+.single-contact h4 {
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.single-contact h4 span{
+  display: block;
+  font-size: 16px;
+}
+
+.footer{
+  padding: 15px;
+  background-color: teal;
+}
+
+.footer  p{
+  color: #fff;
+  text-align: center;
+}
